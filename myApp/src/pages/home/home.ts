@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {EventsPage} from '../events/events';
+import {AdminEventsPage} from '../admin-events/admin-events';
+import {EventsPage} from "../events/events";
 
 @Component({
   selector: 'page-home',
@@ -11,8 +12,11 @@ export class HomePage {
     
   }
 
-  eventsPage(r) {
-  	this.navCtrl.push(EventsPage);
+  AdminEventsPage(r) {
+  	this.navCtrl.push(AdminEventsPage);
+  }
+  UserEventsPage(r) {
+    this.navCtrl.push(EventsPage)
   }
 
 }

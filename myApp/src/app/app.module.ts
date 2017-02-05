@@ -3,13 +3,18 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {EventsPage} from '../pages/events/events';
+
 import {InfoPage} from '../pages/info/info';
+//noinspection TypeScriptCheckImport
+import {AdminEventsPage} from '../pages/admin-events/admin-events';
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     EventsPage,
     InfoPage
+
+    AdminEventsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -20,6 +25,9 @@ import {InfoPage} from '../pages/info/info';
     HomePage,
     EventsPage,
     InfoPage
+
+    AdminEventsPage
+
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

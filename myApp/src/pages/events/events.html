@@ -13,7 +13,19 @@
 </ion-header>
 
 <ion-content padding class="events">
-  This is my super awesome event page.
+<ion-scroll scrollX="true">
+</ion-scroll>
+
+<ion-scroll scrollY="true">
+</ion-scroll>
+
+<ion-scroll scrollX="true" scrollY="true">
+</ion-scroll>
+<ion-list>
+  <button ion-item *ngFor="let item of items" (click)="infoPage()">
+    {{ item }}
+  </button>  
+</ion-list>
 </ion-content>
 
 <ion-content padding>

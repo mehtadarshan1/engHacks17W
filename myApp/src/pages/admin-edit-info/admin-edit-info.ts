@@ -1,29 +1,31 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import {InfoPage} from "../info/info";
+
 
 /*
-  Generated class for the Events page.
+  Generated class for the AdminEditInfo page.
 
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-events',
-  templateUrl: 'events.html'
+  selector: 'page-admin-edit-info',
+  templateUrl: 'admin-edit-info.html'
 })
-export class EventsPage {
+export class AdminEditInfoPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad EventsPage');
+    console.log('ionViewDidLoad AdminEditInfoPage');
   }
-<<<<<<< HEAD
-  UserInfoPage(r) {
-  	this.navCtrl.push(InfoPage)
-  }
-=======
 
->>>>>>> 05e58f5f1133c395ffb66afd86fc985a26f3db45
+  public event = {
+    month: '1990-02-19',
+    timeStarts: '07:43',
+    timeEnds: '1990-02-20'
+  }
+
+
+
 }

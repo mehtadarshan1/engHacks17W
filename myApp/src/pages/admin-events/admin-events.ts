@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { AdminEditInfoPage } from '../../pages/admin-edit-info/admin-edit-info';
+
 
 /*
   Generated class for the AdminEvents page.
@@ -17,6 +19,10 @@ export class AdminEventsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AdminEventsPage');
+  }
+
+  AdminEditInfo(r) {
+    this.navCtrl.push(AdminEditInfoPage);
   }
 
 }

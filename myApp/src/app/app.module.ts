@@ -5,16 +5,17 @@ import { HomePage } from '../pages/home/home';
 import {EventsPage} from '../pages/events/events';
 
 import {InfoPage} from '../pages/info/info';
-//noinspection TypeScriptCheckImport
 import {AdminEventsPage} from '../pages/admin-events/admin-events';
+import {AdminEditInfoPage} from '../pages/admin-edit-info/admin-edit-info';
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     EventsPage,
-    InfoPage
-
-    AdminEventsPage
+    InfoPage,
+    AdminEventsPage,
+    AdminEditInfoPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -24,9 +25,9 @@ import {AdminEventsPage} from '../pages/admin-events/admin-events';
     MyApp,
     HomePage,
     EventsPage,
-    InfoPage
-
-    AdminEventsPage
+    InfoPage,
+    AdminEventsPage,
+    AdminEditInfoPage
 
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

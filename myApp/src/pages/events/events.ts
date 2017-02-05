@@ -19,11 +19,8 @@ export class EventsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad EventsPage');
   }
-<<<<<<< HEAD
-  UserInfoPage(r) {
-  	this.navCtrl.push(InfoPage)
-  }
-=======
 
->>>>>>> 05e58f5f1133c395ffb66afd86fc985a26f3db45
-}
+  UserInfoPage(r){
+    this.navCtrl.push(InfoPage);
+    }
+  }

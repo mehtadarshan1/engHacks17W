@@ -20,13 +20,9 @@ export class AdminEventsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad AdminEventsPage');
   }
-<<<<<<< HEAD
-  
-=======
+
 
   AdminEditInfo(r) {
     this.navCtrl.push(AdminEditInfoPage);
   }
-
->>>>>>> 05e58f5f1133c395ffb66afd86fc985a26f3db45
 }

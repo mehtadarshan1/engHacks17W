@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
+import {InfoPage} from "../info/info";
 /*
   Generated class for the Events page.
 

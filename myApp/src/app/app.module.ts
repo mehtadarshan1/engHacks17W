@@ -7,6 +7,7 @@ import {EventsPage} from '../pages/events/events';
 import {InfoPage} from '../pages/info/info';
 import {AdminEventsPage} from '../pages/admin-events/admin-events';
 import {AdminEditInfoPage} from '../pages/admin-edit-info/admin-edit-info';
+import {GalleryPage} from '../pages/gallery/gallery';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {AdminEditInfoPage} from '../pages/admin-edit-info/admin-edit-info';
     EventsPage,
     InfoPage,
     AdminEventsPage,
-    AdminEditInfoPage
+    AdminEditInfoPage,
+    GalleryPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -27,7 +29,8 @@ import {AdminEditInfoPage} from '../pages/admin-edit-info/admin-edit-info';
     EventsPage,
     InfoPage,
     AdminEventsPage,
-    AdminEditInfoPage
+    AdminEditInfoPage,
+    GalleryPage
 
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

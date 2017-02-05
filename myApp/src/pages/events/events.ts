@@ -21,6 +21,6 @@ export class EventsPage {
   }
 
   UserInfoPage(r){
-    this.navCtrl.push(InfoPage);
-    }
+  	this.navCtrl.push(InfoPage);
   }
+}

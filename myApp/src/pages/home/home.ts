@@ -16,7 +16,7 @@ export class HomePage {
   	this.navCtrl.push(AdminEventsPage);
   }
   UserEventsPage(r) {
-    this.navCtrl.push(EventsPage)
+    this.navCtrl.push(EventsPage);
   }
 
 }

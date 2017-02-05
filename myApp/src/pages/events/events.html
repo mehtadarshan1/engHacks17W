@@ -11,23 +11,38 @@
   </ion-navbar>
 
 </ion-header>
-
-<ion-content padding class="events">
-<ion-scroll scrollX="true">
-</ion-scroll>
-
-<ion-scroll scrollY="true">
-</ion-scroll>
-
-<ion-scroll scrollX="true" scrollY="true">
-</ion-scroll>
-<ion-list>
-  <button ion-item *ngFor="let item of items" (click)="infoPage()">
-    {{ item }}
-  </button>  
-</ion-list>
-</ion-content>
-
+  
 <ion-content padding>
 
+<ion-card-content>
+
+      <ion-card-title>
+       UofT Hacks
+      </ion-card-title>
+      <p>
+       Join 500 brilliant developers, inspiring designers, and innovative creators for 36 hours of hacking. We’ll give you access to some of the best hardware and APIs on the market, as well as access to mentors with years of experience - everything you need to build something you never thought was possible. You don’t have to be a pro to attend. If this will be your first hackathon, we can’t wait to expose you to the world of creation, all it takes is a willingness to try something new. Be sure to also take a look at the MLH guidlines.
+      </p>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='view'></ion-icon>
+          View
+        </button>
+      </ion-col>
+      <ion-col text-center>
+        <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='upload'></ion-icon>
+          Upload
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="danger" icon-left>
+          <ion-icon name='complaine'></ion-icon>
+          Complaint
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
 </ion-content>

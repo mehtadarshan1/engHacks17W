@@ -18,5 +18,5 @@ export class AdminEventsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad AdminEventsPage');
   }
-
+  
 }

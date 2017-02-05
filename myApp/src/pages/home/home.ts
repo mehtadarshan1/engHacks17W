@@ -20,7 +20,7 @@ export class HomePage implements OnInit{
   	this.navCtrl.push(AdminEventsPage);
   }
   UserEventsPage(r) {
-    this.navCtrl.push(EventsPage)
+    this.navCtrl.push(EventsPage);
   }
 
   ngOnInit(){

@@ -5,7 +5,6 @@ import { HomePage } from '../pages/home/home';
 import {EventsPage} from '../pages/events/events';
 
 import {InfoPage} from '../pages/info/info';
-//noinspection TypeScriptCheckImport
 import {AdminEventsPage} from '../pages/admin-events/admin-events';
 import {AngularFireModule} from 'angularfire2';
 
@@ -17,6 +16,8 @@ export const firebaseConfig = {
     messagingSenderId: "698553500724"
 
 }
+import {AdminEditInfoPage} from '../pages/admin-edit-info/admin-edit-info';
+import {GalleryPage} from '../pages/gallery/gallery';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,9 @@ export const firebaseConfig = {
     EventsPage,
     InfoPage,
 
-    AdminEventsPage
+    AdminEventsPage,
+    AdminEditInfoPage,
+    GalleryPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -37,7 +40,9 @@ export const firebaseConfig = {
     HomePage,
     EventsPage,
     InfoPage,
-    AdminEventsPage
+    AdminEventsPage,
+    AdminEditInfoPage,
+    GalleryPage
 
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

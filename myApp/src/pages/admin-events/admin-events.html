@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>admin_events</ion-title>
+    <ion-title>EVENTS</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -15,42 +15,104 @@
 
 <ion-content padding>
   <ion-card>
-    <ion-card-header>
-      Your Current Events
-    </ion-card-header>
+    <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/16521631_1528017623892646_659146857_n.png?oh=e76c503d2cc794dc2c868c3579f831d3&oe=58996C00"/>
+      <ion-card-content>
+      <ion-card-title>
+        UofT Hacks
+      </ion-card-title>
+      <p>
+        UofTHacks is the University of Toronto's annual hackathon.
+        /ˈhakəθɒn/:An event, typically lasting several days, in which a large number of people meet to engage in
+        collaborative computer programming. We look past this traditional definition of a hackathon and take it to
+        new heights. At UofTHacks, we bring people together to make new friends, learn new things, and
+        bring new ideas to life.
+      </p>
+    </ion-card-content>
 
-    <ion-list>
-      <button ion-item>
-        <ion-icon name="cart" item-left></ion-icon>
-        Event Name
-      </button>
-
-      <button ion-item>
-        <ion-icon name="medical" item-left></ion-icon>
-        Hospital
-      </button>
-
-      <button ion-item>
-        <ion-icon name="cafe" item-left></ion-icon>
-        Cafe
-      </button>
-
-      <button ion-item>
-        <ion-icon name="paw" item-left></ion-icon>
-        Dog Park
-      </button>
-
-      <button ion-item>
-        <ion-icon name="beer" item-left></ion-icon>
-        Pub
-      </button>
-
-      <button ion-item>
-        <ion-icon name="planet" item-left></ion-icon>
-        Space
-      </button>
-
-    </ion-list>
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="danger" icon-left (click) = "AdminEditInfo()">
+          Edit Info
+        </button>
+      </ion-col>
+      <ion-col text-center>
+        <button ion-button clear small color="danger" icon-left (click) ="openGallery()">
+          Pictures
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="danger" icon-left>
+          Announce
+        </button>
+      </ion-col>
+    </ion-row>
   </ion-card>
+
+  <ion-card>
+    <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/16507522_1528021697225572_2098148505_n.png?oh=d2d983ac8afcb32d1e3303717401894c&oe=5899AFE0"/>
+    <ion-card-content>
+      <ion-card-title>
+        DeltaHacks
+      </ion-card-title>
+      <p>
+        Whether you are a complete beginner or an experienced veteran, we are sure you will get something out of this event.
+        We also hope our guests, sponsors, mentors and judges have a great time interacting with everyone.
+      </p>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="danger" icon-left (click) = "AdminEditInfo()">
+          Edit Info
+        </button>
+      </ion-col>
+      <ion-col text-center>
+        <button ion-button clear small color="danger" icon-left>
+          Pictures
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="danger" icon-left>
+          Announce
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <ion-card>
+    <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/16521893_1528022767225465_1085337523_n.png?oh=a5ec91abe0d65342f33c4a18252c9eee&oe=58998D27"/>
+    <ion-card-content>
+      <ion-card-title>
+        EngHack 2017
+      </ion-card-title>
+      <p>
+        EngHack has proven to be a fantastic opportunity for students, engaging those who wish to design, create,
+        and innovate for 20 consecutive hours. This term, Waterloo’s EngSoc and MathSoc are working together to
+        bring Waterloo students a more inclusive hackathon with the support and resources of both student societies.
+      </p>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col text-left>
+        <button ion-button clear small color="danger" icon-left (click) = "AdminEditInfo()">
+          Edit Info
+        </button>
+      </ion-col>
+      <br>
+      <ion-col text-center>
+        <button ion-button clear small color="danger" icon-left>
+          Pictures
+        </button>
+      </ion-col>
+      <br>
+      <ion-col text-right>
+        <button ion-button clear small color="danger" icon-left>
+          Announce
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+
 
 </ion-content>

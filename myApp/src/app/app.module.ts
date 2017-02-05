@@ -12,8 +12,7 @@ import {AdminEventsPage} from '../pages/admin-events/admin-events';
     MyApp,
     HomePage,
     EventsPage,
-    InfoPage
-
+    InfoPage,
     AdminEventsPage
   ],
   imports: [
@@ -24,10 +23,8 @@ import {AdminEventsPage} from '../pages/admin-events/admin-events';
     MyApp,
     HomePage,
     EventsPage,
-    InfoPage
-
+    InfoPage,
     AdminEventsPage
-
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
